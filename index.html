@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu aniversário</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <div class="header">
+            <ul>
+                <a href="#aniversariante"><li>Aniversariante</li></a>
+                <a href="#endereco"><li>Local</li></a>
+                <a href="#contato"><li>Contato</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="contador">
+                <div class="contador__contagem">
+                    <div class="data" data-aos="flip-up" data-aos-duration="2000">
+                        <div class="dias"><span id="dias"></span> <p>dias</p> </div>
+                        <div class="horas"><span id="horas"></span> <p>horas</p> </div>
+                        <div class="minutos"><span id="minutos"></span> <p>minutos</p> </div>
+                        <div class="segundos"><span id="segundos"></span> <p>segundos</p> </div>
+                    </div>
+                </div>
+                <div data-aos="zoom-in" data-aos-duration="2000" class="contador__titulo">
+                    <h1>Venha comemorar o meu aniversário!</h1>
+                </div>
+                <div class="contador__barra"data-aos="fade-up"
+                data-aos-duration="2000">
+                    <div class="contador__barra__localizacao">
+                        <p>Localização:</p>
+                        <address>Rua São Paulo, 100</address>
+                    </div>
+                    <div class="contador__barra__data">
+                        <p>Data</p>
+                        <data>24/07/2025</data>
+                    </div>
+                    <div class="contador__barra__confirmar">
+                        <a href="#"><button type="submit">Confirmar presença</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container container__color__sobre">
+            <div data-aos="fade-left" data-aos-duration="2000" id="aniversariante" class="sobre">
+                <div class="sobre__texto">
+                    <h2>Sobre a aniversariante</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur architecto dolorum culpa magni facilis dolores velit cumque temporibus? Ab excepturi fugit aperiam odio, autem quis doloremque blanditiis quo incidunt!</p>
+                </div>
+                <div class="sobre__imagem">
+                    <img src="img/man-suit-sunglasses-party-with-balloons-portrait.jpg" alt="sobre" width="400px">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div data-aos="fade-right" data-aos-duration="2000" id="endereco" class="local">
+                <div class="local__texto">
+                    <h2>Endereço da festa</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur architecto dolorum culpa magni facilis dolores velit cumque temporibus? Ab excepturi fugit aperiam odio, autem quis doloremque blanditiis quo incidunt!</p>
+                </div>
+                <div class="local__mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467690.1437629471!2d-46.924941780268945!3d-23.682063586148132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1723763556749!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="presente">
+
+            </div>
+        </div>
+    </main>
+    <footer id="contato" class="footer">
+        <div class="container footer__container">
+            <div class="endereco">
+                <address>Endereço: Rua São Paulo, 100</address>
+            </div>
+            <div class="contato">
+                <i class="bi bi-whatsapp"></i>Dúvidas? Ligue para <a href="tel:+5519999999999"> (19) 9.9999-9999</a>
+            </div>
+            <div class="midias">
+                <a href="#"><i class="midias__face bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
